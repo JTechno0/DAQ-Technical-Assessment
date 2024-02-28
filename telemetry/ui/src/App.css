@@ -19,6 +19,24 @@
   padding: 5%;
 }
 
+.live-valueS {
+  color: green;
+  font-size: calc(100px + 2vmin);
+  padding: 5%;
+}
+
+.live-valueNUS {
+  color: yellow;
+  font-size: calc(100px + 2vmin);
+  padding: 5%;
+}
+
+.live-valueUS {
+  color: red;
+  font-size: calc(100px + 2vmin);
+  padding: 5%;
+}
+
 .redback-logo {
   max-width: calc(200px + 1vmin);
   display: flex;

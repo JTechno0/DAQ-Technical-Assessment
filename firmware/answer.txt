@@ -1,3 +1,23 @@
 Use this file to write your answer to Stage 2 of the firmware tasks.
 
 Question 1:
+CAN's biggest advantage is its long transmission distance of 40m and the 
+fact it doesn't need a host computer. In CAN every device has a CAN 
+controller which lets it send and recieve data, that means devices can 
+be connected directly to each other without going through a host or a 
+switch. In contrast USB -which is a very popular communication standard- 
+has a range of 5 metes and requires a host controller between all devices
+connected. In automotive applications long wire runs are to be expected
+and redundency is important, most applications need decent speed but not
+insane bandwidth. A lot of communication standards are designed for 
+short high bandwidth runs, pci, usb, spi etc so when looking for
+alternatives the field is narrow espcially in 2024, these communication
+standards have been around for ages and so most devices are designed to
+deal with them. Another old transfer protocal is ethernet, it has long 
+runs and has good redundency but in a car it can be impractical, a 
+switch is needed to send data to and from areas, the connector itself is 
+bulky and devices in cars aren't designed with a ethernet ports.
+
+Overall CAN is in a very subgroup of long range, accurate, fast data 
+transfer that doesn't require a single host. This means compared to other
+common solutions it is one of the best for redbacks purpose's.
